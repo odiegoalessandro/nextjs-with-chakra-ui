@@ -1,11 +1,10 @@
-import { AppProps } from "next/app"
-import { AnimatePresence } from "framer-motion"
-import { ChakraProvider } from "@chakra-ui/react"
-import theme from "../lib/chakra-theme"
-import GlobalStyles from "../styles/GlobalStyles"
-import Main from "../components/main"
-import Fonts from "../components/fonts"
-
+import { ChakraProvider } from "@chakra-ui/react";
+import { AnimatePresence } from "framer-motion";
+import { AppProps } from "next/app";
+import Fonts from "../components/fonts";
+import Main from "../components/main";
+import theme from "../lib/chakra-theme";
+import GlobalStyles from "../styles/GlobalStyles";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
@@ -18,7 +17,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         </Main>
       </AnimatePresence>
     </ChakraProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

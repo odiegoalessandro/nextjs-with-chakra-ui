@@ -1,4 +1,4 @@
-import { Flex, Container, Heading } from "@chakra-ui/react"
+import { Container, Flex, Heading } from "@chakra-ui/react"
 
 export default function Home() {
   return (
